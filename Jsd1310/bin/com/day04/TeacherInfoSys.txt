@@ -1,0 +1,24 @@
+根据学院通知，要求建立教师管理系统
+1、学院教务管理教师信息的增、删、改、查
+2、要求：教务人员通过用户名权限进行管理；才能对教师信息进行管理；
+  a.建表
+  create table duser(
+  id int primary key auto_increment,
+  dname varchar(20),
+  dpwd varchar(20)
+  )
+  ;
+  
+  alter table duser add ddate datetime;
+  
+  create table teacher(
+  id int primary key auto_increment,
+  tname varchar(20),
+  tage int(4),
+  tedu varchar(40),
+  ttel varchar(20),
+  temail varchar(20),
+  taddr varchar(50),
+  tdate datetime
+  )
+  ;

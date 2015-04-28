@@ -1,0 +1,21 @@
+1、
+2、
+3、选用指定的数据库:use 数据库名
+4、建表
+create table duser(
+id int primary key auto_increment,
+dname varchar(20),
+dpwd varchar(20),
+ddata datetime
+)
+;
+
+5、查看表结构
+desc duser;
+6、增、删、改、查
+insert into <表名> (字段1,...,字段n) values (值1,...,值n)
+delete from <表名> where 条件;
+update <表名> set 字段名=新值1,...,字段名n=值n where 条件;
+select * from <表名>;
+===========================================================
+Java中连接数据库：一类三接口
