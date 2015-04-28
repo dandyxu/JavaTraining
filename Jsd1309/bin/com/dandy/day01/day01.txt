@@ -1,0 +1,20 @@
+File-New-Java Project
+Projec Name:jsd1309   Finish
+Package Explorer-jsd1309(src,JRE System Library)
+src-new-package-new class
+"HelloDemo"
+run as Jaca Application
+class<package      package的意义在于便于分类
+com.公司名                   属于项目规范
+com.Google.day01
+{类体}
+public:表明class为公开类       public class HelloDemo
+public static void main(String[] args)
+方法：main方法、入口方法、主方法
+从main方法开始执行
+static:静态
+void:方法不需要返回值
+main:方法名
+(String[] args):参数列表
+run as 中不出现Java Application,则表明main方法出错
+Java中的虚拟机碰到main方法自动启动main线程
